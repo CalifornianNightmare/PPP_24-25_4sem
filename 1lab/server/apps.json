@@ -1,0 +1,37 @@
+{
+    "fridge": {
+        "filename": "fridge.py",
+        "applaunch": "python3 fridge.py",
+        "interval": 1000,
+        "status": "running",
+        "output": "/bin/sh: 1: python: not found\n"
+    },
+    "numbers": {
+        "filename": "fibonacchi.sh",
+        "applaunch": "./fibonacchi.sh 10",
+        "interval": 1000,
+        "status": "running",
+        "output": "/bin/sh: 1: fibonacchi.sh: not found\n"
+    },
+    "test": {
+        "filename": "slick.txt",
+        "applaunch": "pwd",
+        "interval": 1000,
+        "status": "running",
+        "output": "/home/user/Public/2 \u043a\u0443\u0440\u0441 2 \u043f\u043e\u043b\u0443\u0433\u043e\u0434\u0438\u0435/\u041f\u0440\u0430\u043a\u0442\u0438\u043a\u0443\u043c/Feb 16/1lab/server/apps/test\n"
+    },
+    "numbers2": {
+        "filename": "fibonacchi.sh",
+        "applaunch": "ls",
+        "interval": 1000,
+        "status": "stopped",
+        "output": "fibonacchi.sh\n"
+    },
+    "numbers3": {
+        "filename": "fibonacchi.sh",
+        "applaunch": "./fibonacchi.sh 10",
+        "interval": 1000,
+        "status": "running",
+        "output": "Fibonacci sequence up to 10 terms:\n0 1 1 2 3 5 8 13 21 34 \n"
+    }
+}
